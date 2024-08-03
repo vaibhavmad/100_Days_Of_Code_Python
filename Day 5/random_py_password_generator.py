@@ -1,13 +1,9 @@
 import random
 
-symbol_list = ["=", "+", "-", "_", ")", "(", "*", "&", "^", "%", \
-               "$", "#", "@", "!", ".", ",", "/", "<", ">"]
+symbol_list = ["=", "+", "-", "_", ")", "(", "*", "&", "^", "%", "$", "#", "@", "!", ".", ",", "/", "<", ">"]
 num_list = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
-alpha_small = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", \
-                        "k", "l", "m", "n", "o", "p", "q", "r", "s", "t"  \
-                        "u", "v", "w", "x", "y", "z"]
+alpha_small = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j","k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 alpha_large = [i.upper() for i in alpha_small]
-
 password_list = [symbol_list, num_list, alpha_small, alpha_large]
 
 print("Welcome to the Random Py Pasword generator!!")
@@ -35,8 +31,3 @@ for i in password_list:
     password += i
 
 print(password)
-    
-    
-    
-
-
